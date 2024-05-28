@@ -1,18 +1,30 @@
 # dados-atletas.js
 
-Dados do atleta
 
-Foi criada uma classe chamada atleta, com seguintes atributos:
 
-Nome;
-Idade;
-Peso;
-Altura;
-Notas;
 
- ##os seguintes métodos usados:
 
-calculaCategoria(), para calcular a categoria do atleta.
+
+Projeto: Dados do atleta
+
+Foi criada uma classe chamada Atleta, que recebe dentro dela um método construtor que recebe cinco parâmentros:
+Nome, Idade, Peso, Altura e Notas.
+Logo usamos os "this" para criarmos uma variável de instância e atribuindo a ela, um valor.
+
+    class Atleta {
+    constructor(nome, idade, peso, altura, notas){
+     this.nome=nome;
+     this.idade=idade;
+     this.peso=peso;
+     this.altura=altura;
+     this.notas=notas;
+    }
+    
+
+
+ Métodos usados:
+
+calculaCategoria(), para calcular a categoria da classe Atleta, foi preciso ter seguinte classificação:
 
 Infantil: 9 a 11 anos
 Juvenil: 12 e 13 anos
@@ -23,39 +35,48 @@ Sem categoria: demais idades
 O método calculaCategoria(),foi baseado nas informaçoes de idade do atleta atribuindo uma categoria especifica.
 No código, usamos uma série condiçoes "if-else" para cada categoria.
 
-calculaIMC(), para calcular o IMC do atleta.
+calculaIMC()
 
 Para calculaIMC, utilizamos a Fórmula: imc = peso / (altura x altura), com as informçoes do peso e altura do atleta.
 
-calculaMediaValida(), para calcular a média válida do atleta.
+calculaMediaValida()
 
-Para cacularMediaValida(), foi empregada a mesma metodologia, no projeto notas-atletas.js.
+Para cacularMediaValida(), foi empregada a mesma metodologia no projeto notas-atletas.js.
 
-obtemNomeAtleta(), que retorna o nome do atleta.
+obtemNomeAtleta()
 
 obtemNomeAtleta é responsável por retornar o nome do atleta, que acessa o atributo nome do objeto da classe Atleta.
 
-obtemIdadeAtleta(), que retorna a idade do atleta.
+obtemIdadeAtleta()
 
 obtemIdadeAtleta, retorna a idade do atleta, que acessa o atributo idade do objeto da classe.
 
-obtemPesoAtleta(), que retorna o peso do atleta.
+obtemPesoAtleta()
 
 obtemPesoAtleta, retorna o peso do atleta que acessa o atributo peso do objeto da classe.
 
-obtemNotasAtleta(), que retorna as notas do atleta.
+obtemNotasAtleta()
 
 obtemNotasAtleta, que retorna as notas do atleta que acessa o atributo notas do objeto da classe.
 
-obtemCategoria(), que retorna a categoria do atleta.
+obtemCategoria()
 
 obtemCategoria, que retorna a função obtemCategoria() com a categoria especifica do atleta.
 
-obtemIMC(), que retorna o IMC do atleta.
+obtemIMC()
 
 obtemIMC, retorna a função obtemIMC() com o resultado do calculo do Imc do atleta.
 
-obtemMediaValida(), que retorna a média válida do atleta.
+obtemMediaValida()
 
+ObtemMediaValida, retorna a função ObtemMediaValida() com o resuldado da operação da media de cada atleta.
+
+Informações ao usuário:
+
+    let atleta = new Atleta("Cesar Abascal",
+    30, 80, 1.70,
+    [10, 9.34, 8.42, 10, 7.88])
+
+    
 
 
