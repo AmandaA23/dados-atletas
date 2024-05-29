@@ -1,12 +1,8 @@
 ##dados-atletas.js
 
+
+
 Projeto: Dados do atleta
-
-Observações:
-
-Este projeto é continuação do projeto notas-atletas desde usuário.
-
-
 
 Foi criada uma classe chamada Atleta, que recebe dentro dela um método construtor que recebe cinco parâmentros:
 Nome, Idade, Peso, Altura e Notas.
@@ -77,8 +73,7 @@ Informações ao usuário:
     30, 80, 1.70,
     [10, 9.34, 8.42, 10, 7.88])
 
-Essa linha de código está criando um novo objeto atleta com as propriedades nome, idade, peso, altura e notas definidas conforme os valores fornecidos. A instância atleta pode então usar todos os métodos definidos na classe Atleta para calcular categoria, IMC, média válida das notas, e obter as informações individuais do atleta.    
-
+Essa linha de código está criando um novo objeto atleta com as propriedades nome, idade, peso, altura e notas definidas conforme os valores fornecidos.
     
 
 
